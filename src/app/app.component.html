@@ -1,3 +1,6 @@
 <h1>
   {{title}}
 </h1>
+<ul *ngFor="let item of items | async">
+  <li><strong>{{item.name}}</strong>: {{item.body}}</li>
+</ul>
