@@ -8,10 +8,11 @@ import { AppComponent } from './app.component';
 
 // Must export the config
 export const firebaseConfig = {
-  apiKey: '<your-key>',
-  authDomain: '<your-project-authdomain>',
-  databaseURL: '<your-database-URL>',
-  storageBucket: '<your-storage-bucket>'
+  apiKey: "AIzaSyAuSpUv00DGqq7FcPSIkqGCAW0gniAoPEg",
+  authDomain: "contactng2dummyapp.firebaseapp.com",
+  databaseURL: "https://contactng2dummyapp.firebaseio.com",
+  storageBucket: "",
+  messagingSenderId: "1072580747800"
 };
 
 @NgModule({
